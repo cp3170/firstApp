@@ -109,7 +109,7 @@ export default class App extends React.Component {
     return (
       <div style={{ width: this.drawerWidth }}>
         <List>
-          {["Inbox", "Trash", "Important", "Gunk"].map((text, index) => (
+          {["Inbox", "Trash", "Important", "Gunk1"].map((text, index) => (
             <NavLink
               key={index}
               activeStyle={{ bakground: "green", fontSize: 18 }}
